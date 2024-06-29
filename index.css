@@ -1,0 +1,73 @@
+body {
+  background: linear-gradient(90deg, rgb(119, 9, 223), rgb(63, 30, 209));
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center the content horizontally */
+  min-height: 100vh; /* Ensure body takes up full viewport height */
+  margin: 0; /* Remove default body margin */
+}
+
+.stop-watch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 10px solid;
+  border-radius: 50px;
+  border-color: white;
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.5); /* Optional: Add a semi-transparent background for better readability */
+}
+
+.display {
+  font-size: 5rem;
+  font-weight: bold;
+  color: whitesmoke;
+  font-family: monospace;
+  text-shadow: 2px 2px 2px hsla(0, 0%, 0%, 1.2);
+  margin-bottom: 25px;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.controls button {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 5px;
+  min-width: 125px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: whitesmoke;
+  transition: background-color 0.5s ease;
+}
+
+/*adding this way of colour code so that it creates a visually appealing effect, making the background of the button  look more dynamic and less monotonous than a solid color.*/
+
+.start-button{
+background: linear-gradient(
+      90deg,
+      rgb(28, 102, 239) 0%,
+      rgb(14, 66, 186) 100%
+  );
+}
+
+.stop-button {
+  background: linear-gradient(
+      90deg,
+      rgb(232, 48, 85) 0%,
+      rgb(231, 10, 54) 100%
+  );
+}
+
+.reset-button {
+  background: linear-gradient(
+      90deg,
+      rgb(243, 98, 13) 0%,
+      rgb(242, 112, 12) 100%
+  );
+}
