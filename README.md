@@ -2,10 +2,6 @@
 
 A simple and stylish stopwatch component built with React.
 
-## Description
-
-This React component implements a stopwatch with start, stop, and reset functionalities. The display shows the elapsed time in minutes, seconds, and milliseconds, formatted for easy readability. The component features a visually appealing design with a gradient background and a sleek, modern interface.
-
 ## Features
 
 - Start, stop, and reset the stopwatch
